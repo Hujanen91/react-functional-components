@@ -17,6 +17,7 @@ class NavBarForm extends Component {
         }),  () => console.log(this.state.isLoggedIn))
     }
 
+
   render() {
     return (
       <div className={css.NavBar}>

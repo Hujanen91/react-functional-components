@@ -1,17 +1,18 @@
 import css from './App.module.css';
-import NavBarChild from './components/NavBarChild';
+
+import Sidebar from './components/Sidebar';
 import NavBarForm from './components/NavBarForm';
 import NavBarSimple from './components/NavBarSimple';
-import Sidebar from './components/Sidebar';
+import Content from "./components/Content";
 
 function App() {
   return (
     <div className={css.App}>
       {/* Add your components here */}
-      <NavBarChild />
+      <NavBarForm />
       <NavBarSimple />
       <Sidebar />
-      <NavBarForm />
+      <Content />
     </div>
   );
 }
